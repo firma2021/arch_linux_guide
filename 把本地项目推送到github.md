@@ -137,7 +137,7 @@ Hi! You've successfully authenticated, but GitHub does not provide shell access.
 所以，在 **HTTPS 模式** 下，你的 Git 身份认证流程是：
 
 - Git 客户端向 GitHub 提交：
-  - username: `firma2021`
+  - username
   - password: `<一串很长的 PAT>`
 - GitHub 端验证这个 PAT 是否有效、是否有权限访问你操作的仓库。
 
@@ -157,7 +157,7 @@ Hi! You've successfully authenticated, but GitHub does not provide shell access.
 
 第一次 push 时：
 
-- 会提示输入用户名：`firma2021`
+- 会提示输入用户名
 - 密码：**粘贴你刚刚生成的 PAT**
 
 有的系统会弹出图形界面或使用凭据管理器：
