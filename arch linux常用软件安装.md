@@ -139,9 +139,8 @@ vscode支持：在`~/.config/code-flags.conf`中，添加`--ozone-platform=wayla
 
 安装：
 
-- `sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji` 
+- `sudo pacman -S noto-fonts-cjk noto-fonts-emoji` 
 - `paru ttf-lxgw-bright-code-git`
-- `paru ttf-jetbrains-mono-nerd`
 
 运行 `fc-cache -fv `更新字体缓存。
 
