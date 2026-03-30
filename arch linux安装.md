@@ -92,17 +92,18 @@ DefaultTimeoutStopSec=5s
 |剩余所有空间| btrfs| / |无|
 
 取消勾选：
-- CachyOS Packages下的cachyos-wallpapers
+- CachyOS Packages下的cachyos-wallpapers，如果不使用micro编辑器，可以取消勾选cachyos-micro-settings
 - CachyOS shell configuration
-- filesystem下的nilfs-utils
-- fonts下的ttf-bitstreamm-vera, ttf-dejavu, ttf-opensans
-- Some applications selection下的alacrittty, btop, glances, nano-syntax-highlighting, micro, nano, vim
+- Base-devel + Common packages下的：
+  - filesystem下的nilfs-utils
+  - fonts下的ttf-bitstreamm-vera, ttf-dejavu, ttf-opensans
+  - Some applications selection下的alacrittty, btop, glances, nano-syntax-highlighting, micro, nano, vim
 - KDE-Desktop下的cachyos-emerald-kde-theme-git, cachyos-*, char-white, kdeconnect
-- 其它与cachyos相关的主题/终端配置
+-  
+- cachyos-plymouth-bootanimation
 
-你也可以在安装后，执行`pacman -Qs cachyos`，查看安装的CachyOS包，移除以下这些CachyOS主题和预设，以安装自己的主题：
+在安装后，执行`pacman -Qs cachyos`，查看安装的CachyOS包，移除多余的主题包，如`paru -Rsn cachyos-plymouth-theme cachyos-plymouth-bootanimation`
 
-`paru -Rsn cachyos-kde-settings  cachyos-nord-kde-theme-git char-white cachyos-themes-sddm cachyos-emerald-kde-theme-git cachyos-wallpapers cachyos-iridescent-kde cachyos-micro-settings cachyos-plymouth-bootanimation cachyos-zsh-config cachyos-fish-config cachyos-alacritty-config`
 
 
 
